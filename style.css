@@ -8,8 +8,38 @@ body {
   padding-top: 50px;
 }
 
-#title {
-  color: black;
+.title {
+  color: rgba(12, 97, 114, 0.673);
+ 
+  padding: 2px;
+  padding-bottom: 2px;
+  height: 30px;
+  width: 200px;
+  margin-left: 180px;
+  font-size: 15px;
+  padding-bottom: 22px;
+  padding-top: 2px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0px;
+ 
+  
+
+
+}
+#line {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: cursive;
+  border: none;
+  margin-top: 0px;
+  font-style: italic;
+  height: 20px;
+  width: 190px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 190px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .container {
   max-width: 600px;
@@ -17,6 +47,7 @@ body {
   background: rgba(232, 229, 229, 0.3);
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0px 2px 2px 1px grey;
 }
 
 input, button {
